@@ -626,6 +626,7 @@ footer {
 
   .hero img {
     margin: 0 0 0 auto;
+    grid-row: 2 / 3;
   }
 
   .hero article {
