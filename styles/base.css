@@ -270,6 +270,7 @@ nav .btn {
   text-shadow: 0 0 1px rgb(19, 177, 231);
   display: flex;
   justify-content: center;
+  margin: auto;
 }
 
 nav .btn:hover {
