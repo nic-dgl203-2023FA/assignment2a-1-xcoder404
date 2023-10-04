@@ -107,6 +107,7 @@ i {
   color: #fff;
   font-size: 20px;
   text-align: center;
+  display: grid;
 }
 
 .hero img {
