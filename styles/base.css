@@ -108,6 +108,9 @@ i {
   font-size: 20px;
   text-align: center;
   display: grid;
+  grid-template-columns: 10px 2fr 10px;
+  grid-template-rows: .5fr 1fr 20px;
+  grid-gap:20px;
 }
 
 .hero img {
