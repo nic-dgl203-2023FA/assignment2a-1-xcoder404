@@ -705,6 +705,7 @@ footer {
   }
 
   .trips p {
+    flex: 3;
   }
 
   /* ######### 10a-iv. CTA summaries, Large screen rules ######### */
