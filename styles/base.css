@@ -621,6 +621,7 @@ footer {
     text-align: left;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: .25fr 1fr .25fr;
+    align-items: center;
   }
 
   .hero img {
