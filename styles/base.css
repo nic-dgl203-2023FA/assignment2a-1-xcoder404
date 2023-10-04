@@ -619,6 +619,8 @@ footer {
     background: url(../images/header1_lg.jpg) no-repeat center left;
     background-size: cover;
     text-align: left;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: .25fr 1fr .25fr;
   }
 
   .hero img {
