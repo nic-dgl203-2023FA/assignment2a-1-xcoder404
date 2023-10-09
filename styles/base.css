@@ -772,6 +772,9 @@ footer {
   }
 
   .team h1 {
+    order: 2;
+    grid-column: 2 / -1;
+    align-self: center;
   }
 
   .teamMembers {
