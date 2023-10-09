@@ -449,6 +449,7 @@ nav .btn:hover {
 }
 
 .teamMembers li:nth-child(3) img {
+  width: 70%;
 }
 
 /* ############ 7. Problem ############ */
