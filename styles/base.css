@@ -317,6 +317,8 @@ nav .btn:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 1.8rem;
   display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr minmax(140px, 1fr) auto;
 }
 
 .tripList h3,
