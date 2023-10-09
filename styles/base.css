@@ -305,6 +305,7 @@ nav .btn:hover {
 
 .tripList {
   list-style-type: none;
+  display: grid;
 }
 
 .tripList li {
