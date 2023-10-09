@@ -767,6 +767,8 @@ footer {
     margin: auto;
     padding: 0 1rem;
     display: grid;
+    grid-template-columns: 1fr .5fr;
+    grid-template-rows: repeat(2, auto);
   }
 
   .team h1 {
