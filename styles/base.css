@@ -409,6 +409,7 @@ nav .btn:hover {
 }
 
 .teamMembers li {
+  grid-row: 1 /2;
 }
 
 .teamMembers li:nth-child(1) {
