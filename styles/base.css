@@ -316,6 +316,7 @@ nav .btn:hover {
   border: solid 1px #dedede;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 1.8rem;
+  display: grid;
 }
 
 .tripList h3,
