@@ -50,7 +50,7 @@ section {
 }
 
 body > * {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 1.4;
 }
 
@@ -63,7 +63,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   line-height: 1;
 }
 
@@ -102,15 +102,15 @@ i {
 
 /* ############ 2. Hero ############ */
 .hero {
-  background: url("../images/header1_sm.jpg") no-repeat center right;
+  background: url('../images/header1_sm.jpg') no-repeat center right;
   background-size: cover;
   color: #fff;
   font-size: 20px;
   text-align: center;
   display: grid;
   grid-template-columns: 10px 2fr 10px;
-  grid-template-rows: .5fr 1fr 20px;
-  grid-gap:20px;
+  grid-template-rows: 0.5fr 1fr 20px;
+  grid-gap: 20px;
 }
 
 .hero img {
@@ -175,7 +175,7 @@ input#navToggle ~ label {
 input#navToggle ~ label > span,
 input#navToggle ~ label > span::before,
 input#navToggle ~ label > span::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0.75rem;
@@ -223,7 +223,7 @@ nav {
 }
 
 nav::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   z-index: -1;
@@ -253,7 +253,7 @@ nav ul li a:hover {
 }
 
 nav ul li:last-of-type::before {
-  content: "";
+  content: '';
   display: block;
   padding: 0.5rem;
 }
@@ -307,7 +307,7 @@ nav .btn:hover {
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  grid-gap:1rem;
+  grid-gap: 1rem;
 }
 
 .tripList li {
@@ -365,15 +365,15 @@ nav .btn:hover {
 }
 
 .cta1 {
-  background-image: url("../images/ctaBG1_sm.jpg");
+  background-image: url('../images/ctaBG1_sm.jpg');
 }
 
 .cta2 {
-  background-image: url("../images/ctaBG2_sm.jpg");
+  background-image: url('../images/ctaBG2_sm.jpg');
 }
 
 .cta3 {
-  background-image: url("../images/ctaBG3_sm.jpg");
+  background-image: url('../images/ctaBG3_sm.jpg');
 }
 
 .cta h1 {
@@ -414,7 +414,7 @@ nav .btn:hover {
 
 .teamMembers li:nth-child(1) {
   grid-column: 1 / 4;
-  order:1;
+  order: 1;
 }
 
 .teamMembers li:nth-child(2) {
@@ -438,7 +438,7 @@ nav .btn:hover {
 }
 
 .teamMembers li:hover {
-  order:2;
+  order: 2;
 }
 
 .teamMembers img {
@@ -566,10 +566,10 @@ section.problem {
 .galleryWrap {
 }
 
-.galleryWrap img[src$="_w.jpg"] {
+.galleryWrap img[src$='_w.jpg'] {
 }
 
-.galleryWrap img[src$="_p.jpg"] {
+.galleryWrap img[src$='_p.jpg'] {
 }
 
 .galleryWrap img {
@@ -654,7 +654,7 @@ footer {
     background-size: cover;
     text-align: left;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: .25fr 1fr .25fr;
+    grid-template-rows: 0.25fr 1fr 0.25fr;
     align-items: center;
   }
 
@@ -746,15 +746,15 @@ footer {
   }
 
   .cta1 {
-    background-image: url("../images/ctaBG1_lg.jpg");
+    background-image: url('../images/ctaBG1_lg.jpg');
   }
 
   .cta2 {
-    background-image: url("../images/ctaBG2_lg.jpg");
+    background-image: url('../images/ctaBG2_lg.jpg');
   }
 
   .cta3 {
-    background-image: url("../images/ctaBG3_lg.jpg");
+    background-image: url('../images/ctaBG3_lg.jpg');
   }
 
   .cta h1 {
@@ -766,6 +766,7 @@ footer {
     max-width: 1000px;
     margin: auto;
     padding: 0 1rem;
+    display: grid;
   }
 
   .team h1 {
