@@ -1097,6 +1097,7 @@ form#contactForm {
   }
 
   .form h3 {
+    grid-area: h;
   }
 
   .form p.formIntro {
