@@ -1101,6 +1101,7 @@ form#contactForm {
   }
 
   .form p.formIntro {
+    grid-area: p;
   }
 
   .social article {
