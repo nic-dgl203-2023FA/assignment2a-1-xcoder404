@@ -579,9 +579,11 @@ section.problem {
 }
 
 .galleryWrap img[src$='_w.jpg'] {
+  grid-column-end: span 2;
 }
 
 .galleryWrap img[src$='_p.jpg'] {
+  grid-row-end: span 2;
 }
 
 .galleryWrap img {
