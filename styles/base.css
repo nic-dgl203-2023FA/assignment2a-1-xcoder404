@@ -1109,6 +1109,7 @@ form#contactForm {
 
   .social article {
     max-width: 580px;
+    display: flex;
   }
 
   .socialIcons {
