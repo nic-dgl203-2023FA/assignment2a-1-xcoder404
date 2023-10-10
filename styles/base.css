@@ -663,6 +663,8 @@ footer {
 }
 
 /* ######### Contact Form ######### */
+
+
 form#contactForm {
   max-width: 350px;
   margin: auto;
@@ -1048,6 +1050,9 @@ form#contactForm {
 
   /* ######### 10a-viii. Footer, Large screen rules ######### */
   footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr .25fr;
   }
 
   .contact {
