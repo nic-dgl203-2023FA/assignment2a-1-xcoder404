@@ -830,7 +830,7 @@ footer {
     display: none;
   }
 
-  /* ######### 10a-vi. Problem, Large screen rules ######### */
+  /* ######### 10a-vii. Problem, Large screen rules ######### */
 
   .action {
     max-width: 1200px;
@@ -839,6 +839,9 @@ footer {
 
   .action article {
     margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
   }
 
   .action article h1 {
