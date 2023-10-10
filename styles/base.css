@@ -815,6 +815,7 @@ content: "\f192"; /* unicode for fa dot circle */
 /*  ########### NEW CODE START (05_03) ########### */
 form#contactForm {
   max-width: initial;
+  grid-area: f;
 }
 
 .contactForm div {
