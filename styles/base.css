@@ -780,6 +780,7 @@ grid-template-rows: repeat(2,1fr);
 
 .radioBtns p {
 padding-bottom: 0;
+grid-column: span 3;
 }
 
 input[type="radio"]:first-of-type {
