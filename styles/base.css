@@ -850,6 +850,8 @@ footer {
   }
 
   .action ul {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .action ul li {
