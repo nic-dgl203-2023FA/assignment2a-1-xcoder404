@@ -536,7 +536,6 @@ section.problem {
 .action li p {
   padding: 0.5rem 1rem 1rem;
   grid-column: 2 / -1;
-
 }
 
 .action li:nth-of-type(2) h1 {
@@ -776,7 +775,7 @@ footer {
     margin: auto;
     padding: 0 1rem;
     display: grid;
-    grid-template-columns: 1fr .5fr;
+    grid-template-columns: 1fr 0.5fr;
     grid-template-rows: repeat(2, auto);
   }
 
@@ -787,14 +786,14 @@ footer {
   }
 
   .teamMembers {
-    order:1;
+    order: 1;
     grid-column: 1 / -1;
   }
 
   .team p {
     border-right: solid 1px #dedede;
     padding-right: 1rem;
-    order:2;
+    order: 2;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   }
